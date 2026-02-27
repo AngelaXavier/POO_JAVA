@@ -6,16 +6,16 @@ public class Base {
         // Declaração e inicialização de uma variável do tipo caractere
         char ch = 'A';
 
-        // Declaração e inicialização de uma variável do tipo byte (inteiro de 8 bits)
+        // Declaração e inicialização de uma variável do tipo byte (inteiro de 8 bits) -128 to 127
         byte b = 12;
 
-        // Declaração e inicialização de uma variável do tipo short (inteiro de 16 bits)
+        // Declaração e inicialização de uma variável do tipo short (inteiro de 16 bits) -32,768 to 32,767
         short s = 24;
 
-        // Declaração e inicialização de uma variável do tipo int (inteiro de 32 bits)
+        // Declaração e inicialização de uma variável do tipo int (inteiro de 32 bits) -2.1 billion to 2.1 billion.
         int i = 257;
 
-        // Declaração e inicialização de uma variável do tipo long (inteiro de 64 bits)
+        // Declaração e inicialização de uma variável do tipo long (inteiro de 64 bits) 
         long l = 890L; // O 'L' no final indica que é um literal long
 
         // Declaração e inicialização de uma variável do tipo float (ponto flutuante de 32 bits)
