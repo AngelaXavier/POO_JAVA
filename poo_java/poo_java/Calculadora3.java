@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Clculadora2 {
-  public static void main (String] arg {
+  public static void main (String) arg {
       scanner scanner = new Scanner
         System.out.print("Digite o primeiro número: ");
     doubl numero1 = scanner.nextDouble();
