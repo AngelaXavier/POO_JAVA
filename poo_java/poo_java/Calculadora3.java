@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Clculadora2 {
   public static void main (String) arg {
-      scanner scanner = new Scanner
+      scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro número: ");
     doubl numero1 = scanner.nextDouble();
     System.out.print("Digite o segundo número: ");
