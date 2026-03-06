@@ -1,0 +1,69 @@
+
+class Animal {
+    public String nome;
+    public void emitirSom() {
+        System.out.println("O animal faz um som genérico.");
+    }
+}
+
+class Cachorro extends Animal {
+
+    @Override
+    public void emitirSom() {
+        System.out.println("O cachorro late: Au Au!");
+    }
+}
+
+class Gato extends Animal {
+
+    @Override
+    public void emitirSom() {
+        System.out.println("O gato mia: Miau!");
+    }
+}
+class Canguru extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("O canguru pula: plof plof!");
+    }
+}
+class Ornitorrico extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("O ornitorrico faz ruído: grrrr!");
+    }
+}
+class Equidna extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("O ornitorrico faz ruído: grrr!");
+    }
+}
+
+public class Heranca2 {
+    public static void main(String[] args) {
+
+        Animal a = new Animal();
+        a.emitirSom();
+        Cachorro c = new Cachorro();
+        c.nome = "Rex";
+        c.emitirSom();
+        System.out.println("Nome do cachorro: " + c.nome);
+        Gato g = new Gato();
+        g.nome = "Mimi";
+        g.emitirSom();
+        System.out.println("Nome do gato: " + g.nome);
+        Canguru ca = new Canguru();
+        ca.nome = "Guru";
+        ca.emitirSom();
+        System.out.println("Nome do Canguru: " + ca.nome);
+        Ornitorrico o = new Ornitorrico();
+        o.nome = "Perry";
+        o.emitirSom();
+        System.out.println("Nome do canguru: " + o.nome);
+        Equidna e = new Equidna();
+        e.nome = "Equi";
+        e.emitirSom();
+        System.out.println("Nome do equidna: " + e.nome);
+    }
+}
